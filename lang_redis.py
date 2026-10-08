@@ -9,7 +9,7 @@ from langgraph.checkpoint.redis import RedisSaver
 
 load_dotenv()
 
-REDIS_URL = "redis://localhost:56844"
+REDIS_URL = "redis://localhost:58620"
 
 
 class GraphState(TypedDict):
